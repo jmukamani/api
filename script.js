@@ -1,4 +1,4 @@
-/ Toggle navigation menu for mobile
+// Toggle navigation menu for mobile
 const menuToggle = document.querySelector('.menu-toggle');
     const nav = document.querySelector('nav ul');
 
@@ -33,14 +33,14 @@ const menuToggle = document.querySelector('.menu-toggle');
         } catch (error) {
             console.error(error);
         }
-
-        // View hotel
+        
+// View hotel
 document.addEventListener('DOMContentLoaded', function() {
     const viewHotelButtons = document.querySelectorAll('.viewHotelsButton');
     viewHotelButtons.forEach(function(button) {
-        button.addEventListener('click', function() {
+        button.addEventListener('click', async function() {
             window.location.href = 'https://hotels4.p.rapidapi.com/v2/get-meta-data';
-         const options = {
+            const options = {
                 method: 'GET',
                 headers: {
                     'X-RapidAPI-Key': '8605becc9fmshfd873045f53a4afp1763a2jsn2f099742fead',
@@ -52,10 +52,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 const response = await fetch(url, options);
                 const result = await response.text();
                 console.log(result);
-  
             } catch (error) {
                 console.error(error);
+            } // Add this closing curly brace
         });
     });
 });
-
