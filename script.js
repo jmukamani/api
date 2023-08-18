@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const viewHotelButtons = document.querySelectorAll('.viewHotelsButton');
     viewHotelButtons.forEach(function(button) {
         button.addEventListener('click', async function() {
-            window.location.href = 'https://hotels4.p.rapidapi.com/v2/get-meta-data';
+            window.location.href = 'https://www.hotels.com/';
             const options = {
                 method: 'GET',
                 headers: {
