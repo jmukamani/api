@@ -25,8 +25,8 @@ The Concierge Services website aims to provide visitors with information about t
 
 ## Installation
 
-1. Clone the repository using `git clone https://github.com/your-username/concierge-services.git`.
-2. Navigate to the project directory using `cd concierge-services`.
+1. Clone the repository using `git clone https://github.com/jmukamani/api.git`.
+2. Navigate to the project directory using `cd api`.
 
 ## Usage
 
