@@ -36,8 +36,7 @@ The Concierge Services website aims to provide visitors with information about t
 
 ## API Integration
 
-The "View Hotels" button is integrated with an external API to fetch hotel data. Make sure you have a valid API key and follow the API provider's guidelines for usage.
-
+The "View Hotels" button is integrated with an external API to fetch hotel data. This API helps to query rooms, prices, facilities, policies, etc information from many hotels around the world to create a traveling site/application, such as hotels.com
 - API Endpoint: `https://hotels4.p.rapidapi.com/v2/get-meta-data`
 - API Key: 'X-RapidAPI-Key': '8605becc9fmshfd873045f53a4afp1763a2jsn2f099742fead',
 
